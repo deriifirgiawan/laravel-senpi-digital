@@ -1,0 +1,62 @@
+.card-login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.card {
+    width: 400px;
+    padding: 24px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-nrp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.wrapper-nrp-input {
+    width: 100%;
+}
+
+.wrapper-nrp-btn .btn {
+    margin-top: 0px !important;
+}
+
+@media (max-width: 767.98px) {
+    .wrapper {
+        padding: 0 24px;
+        display: inline;
+    }
+    .card {
+        width: 100%;
+        padding: 12px;
+    }
+}
